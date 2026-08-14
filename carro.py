@@ -23,7 +23,7 @@ carro2 = Vehicle(180, 25)
 carro2.assign_seating_capacity(4)
 
 
-numero = int(input("qual carro você quer? o 1 ou o 2?"))
+numero = int(input("Which car do you want, the 1 or the 2?"))
 
 if numero == 1:
    carro1.display_properties()
